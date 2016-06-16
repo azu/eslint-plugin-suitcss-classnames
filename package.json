@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/eslint-plugin-suitcss-classnames/issues"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint rule that check suitcss-classnames argument object shape.",
   "main": "lib/index.js",
   "files": [
