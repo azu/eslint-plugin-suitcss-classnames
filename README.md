@@ -1,6 +1,9 @@
 # eslint-plugin-suitcss-classnames
 
-eslint-plugin that check suitcss-classnames argument object shape.
+eslint-plugin that provide rules for [suitcss-classnames](https://github.com/dwango-js/suitcss-classnames "suitcss-classnames").
+
+- Check `object` shape of `suitClassNames(object)`.
+    - `states`'s key should start with `is-*`
 
 ## Install
 
