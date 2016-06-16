@@ -1,20 +1,29 @@
-# eslint-rule-suitcss-classnames
+# eslint-plugin-suitcss-classnames
 
-ESLint rule that check suitcss-classnames argument object shape.
+eslint-plugin that check suitcss-classnames argument object shape.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install eslint-rule-suitcss-classnames
+    npm install eslint-plugin-suitcss-classnames
 
 ## Usage
 
-- [ ] Write usage instructions
+```js
+{
+  "plugins": [
+    "suitcss-classnames"
+  ],
+  "rules": {
+    "suitcss-classnames/states": 2
+  }
+}
+```
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/eslint-rule-suitcss-classnames/releases).
+See [Releases page](https://github.com/azu/eslint-plugin-suitcss-classnames/releases).
 
 ## Running tests
 
@@ -26,7 +35,7 @@ Install devDependencies and Run `npm test`:
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/azu/eslint-rule-suitcss-classnames/issues).
+For bugs and feature requests, [please create an issue](https://github.com/azu/eslint-plugin-suitcss-classnames/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

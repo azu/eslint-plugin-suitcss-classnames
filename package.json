@@ -1,19 +1,19 @@
 {
-  "name": "eslint-rule-suitcss-classnames",
+  "name": "eslint-plugin-suitcss-classnames",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azu/eslint-rule-suitcss-classnames.git"
+    "url": "git+https://github.com/azu/eslint-plugin-suitcss-classnames.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/eslint-rule-suitcss-classnames",
+  "homepage": "https://github.com/azu/eslint-plugin-suitcss-classnames",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/eslint-rule-suitcss-classnames/issues"
+    "url": "https://github.com/azu/eslint-plugin-suitcss-classnames/issues"
   },
   "version": "1.0.1",
   "description": "ESLint rule that check suitcss-classnames argument object shape.",
-  "main": "lib/eslint-rule-suitcss-classnames.js",
+  "main": "lib/index.js",
   "files": [
     "lib/",
     "src/"

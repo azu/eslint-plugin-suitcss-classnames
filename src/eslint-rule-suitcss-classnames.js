@@ -28,9 +28,12 @@ module.exports = function (context) {
                 }
                 var keyName = property.key.name || property.key.value;
                 return keyName === "states";
-            })[0].value;
-
-            states.properties.forEach(property => {
+            });
+            if(states.length === 0) {
+                return;
+            }
+            const statesObject = states[0].value;
+            statesObject.properties.forEach(property => {
                 const keyName = property.key.name || property.key.value;
                 if (!isKeyStartedWithIsPrefix(keyName)) {
                     context.report({node: node, message: "`states` property key name should start with is-*"});
@@ -38,4 +41,4 @@ module.exports = function (context) {
             });
         }
     }
-}
+};
