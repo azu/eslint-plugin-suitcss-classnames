@@ -10,11 +10,11 @@ tester.run("eslint-rule-suitcss-classnames", rule, {
     invalid: [
         {
             code: "suitCssName({ component: 'Component', states : { 'state': true } });",
-            errors: ["`states` property key name should start with is-*"]
+            errors: ["States's property key name(state) should start with is-*"]
         },
         {
             code: "suitCssName({ component: 'Component', states : { 'isState': true } });",
-            errors: ["`states` property key name should start with is-*"]
+            errors: ["States's property key name(isState) should start with is-*"]
         }
     ]
 });
